@@ -1,0 +1,22 @@
+{
+    "name": "tasty-purple",
+    "displayName": "Tasty Purple",
+    "description": "My first theme with purple color as a primary one. Easy for eyes",
+    "version": "0.0.1",
+    "publisher": "Ushinnary",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Tasty Purple Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Tasty Purple Theme-color-theme.json"
+            }
+        ]
+    }
+}
