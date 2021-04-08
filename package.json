@@ -1,25 +1,35 @@
 {
-    "name": "tasty-purple",
-    "displayName": "Tasty Purple",
-    "description": "My first theme with purple color as a primary one. Easy for eyes",
-    "version": "0.0.1",
-    "publisher": "Ushinnary",
-    "repository": {
-        "homepage": "https://github.com/ushinnary/tasty-purple-vscode-theme"
-    },
-    "engines": {
-        "vscode": "^1.55.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Tasty Purple Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Tasty Purple Theme-color-theme.json"
-            }
-        ]
-    }
+	"name": "tasty-purple",
+	"displayName": "Tasty Purple",
+	"description": "My first theme with purple color as a primary one. Easy for eyes",
+	"version": "0.0.2",
+	"publisher": "Ushinnary",
+	"repository": {
+		"homepage": "https://github.com/ushinnary/tasty-purple-vscode-theme"
+	},
+	"engines": {
+		"vscode": "^1.55.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Tasty Purple Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Tasty Purple Theme-color-theme.json"
+			},
+			{
+				"label": "Tasty Purple Bright Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Tasty Purple Brighter Theme-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "a07e01c2-7346-4d09-830c-df8aca346e42",
+		"publisherDisplayName": "Alexander Kartushin",
+		"publisherId": "04990123-1e5d-4afa-ad6f-889a72a970f6"
+	}
 }
