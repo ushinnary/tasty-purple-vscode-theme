@@ -2,9 +2,12 @@
 	"name": "tasty-purple",
 	"displayName": "Tasty Purple",
 	"description": "My first theme with purple color as a primary one. Easy for eyes",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"publisher": "Ushinnary",
 	"icon": "screenshots/default.png",
+	"scripts": {
+		"publish": "vsce publish"
+	},
 	"repository": {
 		"homepage": "https://github.com/ushinnary/tasty-purple-vscode-theme",
 		"url": "https://github.com/ushinnary/tasty-purple-vscode-theme"
