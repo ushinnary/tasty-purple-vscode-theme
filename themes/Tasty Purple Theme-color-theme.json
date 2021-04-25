@@ -109,7 +109,7 @@
             "name": "punctuation.definition",
             "scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
             "settings": {
-                "foreground": "#a1d27c"
+                "foreground": "#f9ffa6"
             }
         },
         {
@@ -144,7 +144,7 @@
             "name": "inserted.diff",
             "scope": "markup.inserted.diff",
             "settings": {
-                "foreground": "#a1d27c"
+                "foreground": "#f9ffa6"
             }
         },
         {
@@ -640,7 +640,7 @@
                 "source.vue",
             ],
             "settings": {
-                "foreground": "#ff8d8d"
+                "foreground": "#86e2ff"
             }
         },
         {
@@ -666,6 +666,64 @@
             ],
             "settings": {
                 "foreground": "#82bfff"
+            }
+        },
+        {
+            "name": "VUE Type",
+            "scope": [
+                "storage.type.ts",
+                "meta.var.expr.ts",
+                "meta.block.ts",
+                "meta.method.declaration.ts",
+                "meta.objectliteral.ts",
+                "meta.export.default.ts",
+                "source.ts",
+                "source.vue"
+            ],
+            "settings": {
+                "foreground": "#99ffa6"
+            }
+        },
+        {
+            "name": "VUE Type alias",
+            "scope": [
+                "entity.name.type.alias.ts",
+                "meta.type.declaration.ts",
+                "source.ts",
+                "source.vue"
+            ],
+            "settings": {
+                "foreground": "#99ffa6"
+            }
+        },
+        {
+            "name": "VUE Type Enum",
+            "scope": [
+                "entity.name.type.enum.ts",
+                "meta.enum.declaration.ts",
+                "source.ts",
+                "source.vue",
+            ],
+            "settings": {
+                "foreground": "#99FFA6"
+            }
+        },
+        {
+            "name": "VUE method property",
+            "scope": [
+                "entity.name.type.ts",
+                "meta.type.annotation.ts",
+                "meta.var-single-variable.expr.ts",
+                "meta.var.expr.ts",
+                "meta.block.ts",
+                "meta.method.declaration.ts",
+                "meta.objectliteral.ts",
+                "meta.export.default.ts",
+                "source.ts",
+                "source.vue",
+            ],
+            "settings": {
+                "foreground": "#56feff"
             }
         },
         {
@@ -802,7 +860,7 @@
             "name": "Strings",
             "scope": "string",
             "settings": {
-                "foreground": "#a1d27c"
+                "foreground": "#f9ffa6"
             }
         },
         {
@@ -965,14 +1023,14 @@
             "name": "[VSCODE-CUSTOM] Markdown Inline Raw",
             "scope": "markup.inline.raw.markdown",
             "settings": {
-                "foreground": "#a1d27c"
+                "foreground": "#f9ffa6"
             }
         },
         {
             "name": "[VSCODE-CUSTOM] Markdown Inline Raw",
             "scope": "markup.inline.raw.string.markdown",
             "settings": {
-                "foreground": "#a1d27c"
+                "foreground": "#f9ffa6"
             }
         },
         {
@@ -1104,7 +1162,7 @@
             "name": "Source Json Meta Structure Dictionary Json > Value Json > String Quoted Json,source Json Meta Structure Array Json > Value Json > String Quoted Json,source Json Meta Structure Dictionary Json > Value Json > String Quoted Json > Punctuation,source Json Meta Structure Array Json > Value Json > String Quoted Json > Punctuation",
             "scope": "source.json meta.structure.dictionary.json > value.json > string.quoted.json,source.json meta.structure.array.json > value.json > string.quoted.json,source.json meta.structure.dictionary.json > value.json > string.quoted.json > punctuation,source.json meta.structure.array.json > value.json > string.quoted.json > punctuation",
             "settings": {
-                "foreground": "#a1d27c"
+                "foreground": "#f9ffa6"
             }
         },
         {
@@ -1447,7 +1505,7 @@
                 "keyword.other.template.begin"
             ],
             "settings": {
-                "foreground": "#a1d27c"
+                "foreground": "#f9ffa6"
             }
         },
         {
@@ -1456,7 +1514,7 @@
                 "keyword.other.template.end"
             ],
             "settings": {
-                "foreground": "#a1d27c"
+                "foreground": "#f9ffa6"
             }
         },
         {
@@ -1465,7 +1523,7 @@
                 "keyword.other.substitution.begin"
             ],
             "settings": {
-                "foreground": "#a1d27c"
+                "foreground": "#f9ffa6"
             }
         },
         {
@@ -1474,7 +1532,7 @@
                 "keyword.other.substitution.end"
             ],
             "settings": {
-                "foreground": "#a1d27c"
+                "foreground": "#f9ffa6"
             }
         },
         {
@@ -1603,7 +1661,7 @@
                 "source.ini"
             ],
             "settings": {
-                "foreground": "#a1d27c"
+                "foreground": "#f9ffa6"
             }
         },
         {
@@ -1657,7 +1715,7 @@
                 "meta.definition.class.inherited.classes.groovy"
             ],
             "settings": {
-                "foreground": "#a1d27c"
+                "foreground": "#f9ffa6"
             }
         },
         {
@@ -1763,7 +1821,7 @@
                 "beginning.punctuation.definition.quote.markdown.xi"
             ],
             "settings": {
-                "foreground": "#a1d27c"
+                "foreground": "#f9ffa6"
             }
         },
         {
@@ -1982,7 +2040,7 @@
         "inputOption.activeForeground": "#ffffff",
         "input.placeholderForeground": "#bd7cff",
         "textLink.foreground": "#ee7bff",
-        "editor.background": "#13091d",
+        "editor.background": "#181027",
         "editor.foreground": "#d9d9d9",
         "editorLineNumber.foreground": "#af86d8",
         "editorCursor.foreground": "#00c3ff",

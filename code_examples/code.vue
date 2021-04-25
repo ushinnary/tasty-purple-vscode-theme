@@ -5,6 +5,13 @@
 </template>
 
 <script lang="ts">
+type myType = {
+  prop: string;
+  val: boolean;
+};
+enum MY_ENUM {
+  PROP = "VALUE",
+}
 export default {
   data() {
     return {
@@ -12,13 +19,22 @@ export default {
     };
   },
   mounted() {
-    const testObj = { prop: "val", val: false };
+    const testObj: myType = { prop: "val", val: false };
     const test = "testing";
+    let one: string | number = 1;
+    one = "one";
     testObj.prop = "";
     testObj.val = true;
     console.log(this.Obj.prop);
     console.log(testObj.prop);
     console.log(test);
+    console.log(one);
+    console.log({
+      test: "t",
+      t: 1,
+      [MY_ENUM.PROP]: "t",
+    });
+    console.log(MY_ENUM.PROP);
   },
   methods: {
     test(params) {
