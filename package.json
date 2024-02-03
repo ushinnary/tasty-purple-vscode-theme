@@ -29,6 +29,11 @@
         "label": "Tasty Purple Bright Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Tasty Purple Brighter Theme-color-theme.json"
+      },
+      {
+        "label": "Tasty Purple Light Theme",
+        "uiTheme": "vs",
+        "path": "./themes/tasty-purple-light-color-theme.json"
       }
     ]
   },
